@@ -65,5 +65,6 @@ npm run docs:preview
 
 - Algorithm notes: `docs/algorithm/`
 - C++ study notes: `docs/cpp/`
+- Solution notes: `docs/题解/`
 - Project records: `docs/projects/`
 - General posts: `docs/posts/`
