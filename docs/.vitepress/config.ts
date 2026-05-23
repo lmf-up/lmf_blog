@@ -4,11 +4,15 @@ export default defineConfig({
   title: 'LMF Blog',
   description: 'A personal technical blog for algorithms, C++, projects, and notes.',
   cleanUrls: true,
+  markdown: {
+    math: true
+  },
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Algorithm', link: '/algorithm/' },
       { text: 'C++', link: '/cpp/' },
+      { text: '题解', link: '/题解/' },
       { text: 'Projects', link: '/projects/' },
       { text: 'Posts', link: '/posts/' },
       { text: 'About', link: '/about' }
@@ -25,7 +29,8 @@ export default defineConfig({
         text: 'Notes',
         items: [
           { text: 'Algorithm Notes', link: '/algorithm/' },
-          { text: 'C++ Study Notes', link: '/cpp/' }
+          { text: 'C++ Study Notes', link: '/cpp/' },
+          { text: '题解', link: '/题解/' }
         ]
       },
       {
